@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		DOI5IFf/aCRaWmzJ1PU+uEpw0Y8=
+		8ZywMan0/OyqpxVXFmc5kdkmzFs=
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		DOI5IFf/aCRaWmzJ1PU+uEpw0Y8=
+		8ZywMan0/OyqpxVXFmc5kdkmzFs=
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		55Eqb5uOj6vfvWX+hUJRVeziAaI=
+		Xz7bKduuAHtT1IwAdF4ljcHCmyA=
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		55Eqb5uOj6vfvWX+hUJRVeziAaI=
+		Xz7bKduuAHtT1IwAdF4ljcHCmyA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XlkCMb8bOke4AJ8TGIU+NizNcOddpDYIwVUDQ6dVPIE=
+			R5CSQrVRXRmkUnkCP0cu47C1aAXcB4tqgR3wcHJApA0=
 			</data>
 		</dict>
 		<key>Modules/NASAImageLibrary.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XlkCMb8bOke4AJ8TGIU+NizNcOddpDYIwVUDQ6dVPIE=
+			R5CSQrVRXRmkUnkCP0cu47C1aAXcB4tqgR3wcHJApA0=
 			</data>
 		</dict>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oqg3N2/9ludbY3QeRntjZFnL+Ek5gzqUQM2YGloHGgw=
+			rqVCloTprX0+6j6B4P5kce1C1v50ltP4PAWXKcJmKnI=
 			</data>
 		</dict>
 		<key>Modules/NASAImageLibrary.swiftmodule/x86_64.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oqg3N2/9ludbY3QeRntjZFnL+Ek5gzqUQM2YGloHGgw=
+			rqVCloTprX0+6j6B4P5kce1C1v50ltP4PAWXKcJmKnI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

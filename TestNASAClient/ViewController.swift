@@ -10,7 +10,8 @@ import NASAImageLibrary
 
 class ViewController: UITableViewController {
 
-    var imagemodels: [ImageModel]?
+    var imageModels: [ImageModel]?
+    var indexOfSelectedRow: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +19,7 @@ class ViewController: UITableViewController {
         tableView.register(UITableViewCell.self,
                              forCellReuseIdentifier: "Cell")
         NASAImageLibraryClient.fetchImageCollection(keyword: "moon", page: 1) { (imageModels, error) in
-            self.imagemodels = imageModels
+            self.imageModels = imageModels
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
@@ -30,7 +31,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.imagemodels?.count ?? 0
+        return self.imageModels?.count ?? 0
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,9 +41,21 @@ class ViewController: UITableViewController {
             return UITableViewCell()
         }
         cell.index.text = String(indexPath.row)
-        cell.imageTitle.text = imagemodels?[indexPath.row].title
-        cell.date.text = imagemodels?[indexPath.row].date_created
+        cell.imageTitle.text = imageModels?[indexPath.row].title
+        cell.date.text = imageModels?[indexPath.row].date_created
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.indexOfSelectedRow = indexPath.row
+        self.performSegue(withIdentifier: "showImage", sender: self)
     }
 }
 
+extension ViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let imageVC = segue.destination as? ImageViewController {
+            imageVC.imageModel = self.imageModels![indexOfSelectedRow!]
+        }
+    }
+}

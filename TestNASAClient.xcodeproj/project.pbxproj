@@ -16,6 +16,7 @@
 		203E7C5425E8365800A25E93 /* NASAImageLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 203E7C5225E8365800A25E93 /* NASAImageLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		203E7C5825E8366300A25E93 /* NASAImageLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203E7C5725E8366300A25E93 /* NASAImageLibrary.framework */; };
 		203E7C5C25E8BB2B00A25E93 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7C5B25E8BB2B00A25E93 /* CustomTableViewCell.swift */; };
+		203E7C5E25E8DD7200A25E93 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7C5D25E8DD7200A25E93 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 		203E7C5225E8365800A25E93 /* NASAImageLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NASAImageLibrary.framework; path = frameworks/NASAImageLibrary.framework; sourceTree = "<group>"; };
 		203E7C5725E8366300A25E93 /* NASAImageLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NASAImageLibrary.framework; sourceTree = "<group>"; };
 		203E7C5B25E8BB2B00A25E93 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		203E7C5D25E8DD7200A25E93 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				203E7C4025E830D800A25E93 /* Assets.xcassets */,
 				203E7C4225E830D800A25E93 /* LaunchScreen.storyboard */,
 				203E7C4525E830D800A25E93 /* Info.plist */,
+				203E7C5D25E8DD7200A25E93 /* ImageViewController.swift */,
 			);
 			path = TestNASAClient;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				203E7C5C25E8BB2B00A25E93 /* CustomTableViewCell.swift in Sources */,
 				203E7C3C25E830D600A25E93 /* ViewController.swift in Sources */,
+				203E7C5E25E8DD7200A25E93 /* ImageViewController.swift in Sources */,
 				203E7C3825E830D600A25E93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
