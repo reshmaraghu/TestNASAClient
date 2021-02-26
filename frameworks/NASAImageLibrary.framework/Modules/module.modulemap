@@ -1,0 +1,11 @@
+framework module NASAImageLibrary {
+  umbrella header "NASAImageLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module NASAImageLibrary.Swift {
+    header "NASAImageLibrary-Swift.h"
+    requires objc
+}
